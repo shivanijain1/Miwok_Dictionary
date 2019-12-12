@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/darker_gray"
+        android:textAlignment="center"
+        android:paddingLeft="5dp"
+        android:text="MIWOK"
+        />
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:text="NUMBERS"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="clicknumberlist"/>
+
+    <TextView
+        android:id="@+id/Family_Members"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:text="FAMILY MEMBERS"
+        android:background="@android:color/holo_green_light"
+        android:onClick="clickfamilylist"/>
+    <TextView
+        android:id="@+id/Colors"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:text="COLORS"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="clickcolorlist"/>
+
+
+    <TextView
+        android:id="@+id/Phrases"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:text="PHRASES"
+        android:paddingLeft="5dp"
+
+        android:background="@android:color/holo_red_light"
+        android:onClick="clickphraseslist"/>
+
+</LinearLayout>
